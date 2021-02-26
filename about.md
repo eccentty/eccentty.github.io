@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 published: true
 ---
-An inventor and health enthusiast.
+An inventor at heart and a health enthusiast.
 
 ### Contact:
 
