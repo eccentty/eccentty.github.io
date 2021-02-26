@@ -7,7 +7,7 @@ categories:
   - EN
   - android
   - programming
-date: '2021-02-19'
+date: '2021-02-26'
 comments: true
 ---
 This is a post to summarise my first year as a junior android dev at a non-tech company. Please keep in mind that the experience varies from industry to industry. In the beginning months, my tasks were to look at third party libraries and implementing them. Afterwards and until now, I am mostly handling the company's legacy codes in java using outdated libraries.
