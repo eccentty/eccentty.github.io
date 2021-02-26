@@ -13,7 +13,26 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <script data-ad-client="${{secrets.ADSENSE_ID}}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <script>
+
+      window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("backToTop").style.display = "block";
+    } else {
+        document.getElementById("backToTop").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+    </script>
+    
   </head>
 
   <body>
