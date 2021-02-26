@@ -2,7 +2,7 @@
 published: true
 layout: post
 keywords: >-
-  android developer, own work, dilemma, business, decision, crossroad, climbing the salary ladder, more time for yourself, live the life that you want, freedom to do your stuff
+  android developer, own work, dilemma, business, decision, crossroad, climbing the salary ladder, more time for yourself, live the life that you want, freedom to do your stuff, forgotten dreams, bucket list
 categories:
   - EN
   - life
@@ -27,9 +27,19 @@ I changed career from finance to IT, so that I can learn the skills that I can u
 
 However, I'm starting to think that this idea is flawed. At the current company, with low salary, I have time on my hand and those are the times that I can work on my business ideas. If I were to continue to climb the better salary wagon, it may be an endless struggles. Higher salary also come with higher expectations and more pressure to perform at work. These are not my goals. Many developers advise that a developer should have a wide range of skills and command of many languages, which in the employable sense, those are absolutely a must. 
 
-I guess this post is a public accountability that I'm going to focus on building my business ideas from now on and not focus on looking for better paying jobs. Of course, I've been learning kotlin, flutter, MVVM design patterns, automated testing, CI/CD to be a better developer but I'm no expert at them yet. I hope to use them to build on my business ideas though. 
+I guess this post is a public accountability that I'm going to focus on building my business ideas from now on and not focus on looking for better paying jobs. Of course, I've been learning kotlin, flutter, MVVM design patterns, automated testing, CI/CD to be a better developer but I'm no expert at them yet. I hope to use them to build on my business ideas though.
 
-This is my take on my life journey and I will keep you posted. Meanwhile, if you have time and want to share your thoughts and wisdom, please leave them in the comments.
+Right now, I'm having a sense of pending doom that I'll forever be chasing a dream that never happen if I go down the more salary path. It's like an invisible bucket list hanging over me that I've never written. I sense it ever since I was 12.
+
+**-Invent something**
+.......
+<del>-Get an MBA</del>
+<del>-Go into finance</del>
+<del>-Go into IT</del>
+
+If I'm alive today and I know I will die tomorrow, the only regret will be that I've never tried my hardest to invent anything. I won't ever regret not making more money. As you know, we only live once. So let's go and make our dreams happen.
+
+Meanwhile, if you have time and want to share your thoughts and wisdom, please leave them in the comments below.
 
 
 
