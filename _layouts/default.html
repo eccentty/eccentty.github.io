@@ -37,6 +37,7 @@ function topFunction() {
 
   <body>
     <div class="wrapper-masthead">
+      <button onclick="topFunction()" id="backToTop" title="Go to top">&#x25B2;</button> 
       <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
@@ -67,5 +68,6 @@ function topFunction() {
     </div>
 
     {% include analytics.html %}
+    {% include new-window-fix.html %}
   </body>
 </html>
