@@ -28,6 +28,7 @@ While I'm at it, I'm going to throw in the data types for java (existing) and da
 | Constant                 | val                                                 | let                                                   |                                        |                                                           |
 | Variable                 | var                                                 | var                                                   |                                        |                                                           |
 | Data types <br><br><br>  | <br>Int, Double, Float<br>Boolean<br>String<br>Char | <br>Int, Double, Float<br>Bool<br>String<br>Character | <br>int, double, num<br>bool<br>String | <br>int, double, float, long<br>boolean<br>String<br>char |
+{:.mytablestyle}
 
 
 Back to only kotlin and swift. 
@@ -41,6 +42,7 @@ The val/var and let/var can only be used when the type can be inferred else the 
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Declaration                                                                                                                                                                               | var x: String = "not null string variable"<br><br>var y: Int = 3                                                                                                                                      | var x: String = "not nil string variable"<br><br>var y: Int = 3                                                                                                                                   |
 | nullable / optional <br><br>declaration<br><br>not null/nil assertion <br>(ignore null check during compile time)<br><br>handling nullable/optional values<br>by assigning default values | <br><br>var z: String? = "string var that may be null"<br><br>var a: String!! = "this string maybe null but will compile" <br><br><br>var text: String? = null<br>val input = text ?: "default value" | <br><br>var z: String? = "string var that may be nil"<br><br>var a: String! = "this string maybe null but will compile"<br><br><br>var text: String? = nil<br>let input = text ?? "default value" |
+{:.mytablestyle}
 
 
 
