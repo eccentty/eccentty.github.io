@@ -306,32 +306,33 @@ footer {
 
 
 .mytablestyle {
-  // border-collapse: collapse;
-
-// > table, td, th {
-//   border: 1px solid black;
-//   }
-
->table {
   border-collapse: collapse;
+
+> table, td, th {
+  border: 1px solid black;
+     padding: 10px;
+  }
+
+// >table {
+//   border-collapse: collapse;
  
-}
+// }
 
 
-// header row
->th { 
-  border: 1px solid #000000;
-  padding: 10px;
+// // header row
+// >th { 
+//   border: 1px solid #000000;
+//   padding: 10px;
   
-}
+// }
 
 
-// content row
->td{
-  border: 1px solid #000000;
-  padding: 15px;
-  text-align: left;
-}
+// // content row
+// >td{
+//   border: 1px solid #000000;
+//   padding: 15px;
+//   text-align: left;
+// }
 
 }
 
