@@ -23,11 +23,11 @@ I'm starting at the basic types of each languages and their declaration.
 While I'm at it, I'm going to throw in the data types for java (existing) and dart (another language to learn) in the mix so that I won't forget them and will be able to see the diffrences as well.
 
 
-| Language                 | Kotlin                                              | Swift                                                 | Dart                                   | Java                                                      |
-|--------------------------|-----------------------------------------------------|-------------------------------------------------------|----------------------------------------|-----------------------------------------------------------|
-| Constant                 | val                                                 | let                                                   |                                        |                                                           |
-| Variable                 | var                                                 | var                                                   |                                        |                                                           |
-| Data types <br><br><br>  | <br>Int, Double, Float<br>Boolean<br>String<br>Char | <br>Int, Double, Float<br>Bool<br>String<br>Character | <br>int, double, num<br>bool<br>String | <br>int, double, float, long<br>boolean<br>String<br>char |
+| Language 	| Kotlin 	| Swift 	| Dart 	| Java 	|
+|-	|-	|-	|-	|-	|
+| Constant 	| val 	| let 	|  	|  	|
+| Variable 	| var 	| var 	|  	|  	|
+| Data types <br><br> 	| Int, Double, Float<br>Boolean<br>String<br>Char 	| Int, Double, Float<br>Bool<br>String<br>Character 	| int, double, num<br>bool<br>String 	| int, double, float, long<br>boolean<br>String<br>char 	|
 {:.mytablestyle}
 
 
@@ -38,10 +38,10 @@ Both kotlin and swift are strongly typed languages. (please refer to [stackoverf
 The val/var and let/var can only be used when the type can be inferred else the code cannot be compiled. In this case, you need to delare the types.
 
 
-| Languages                                                                                                                                                                                                     	| Kotlin                                                                                                                                                                                                        	| Swift                                                                                                                                                                                                     	|
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Declaration                                                                                                                                                                                                   	| var x: String = "not null string variable"<br><br>var y: Int = 3                                                                                                                                              	| var x: String = "not nil string variable"<br><br>var y: Int = 3                                                                                                                                           	|
-| nullable / optional <br><br>declaration<br><br><br><br>not null/nil assertion <br>(ignore null/nil check during compile time)<br><br><br><br>handling nullable/optional values<br>by assigning default values 	| <br><br>var z: String? = "string var that may be null"<br><br><br>var a: String!! = "this string maybe null but will compile" <br><br><br><br>var text: String? = null<br>val input = text ?: "default value" 	| <br><br>var z: String? = "string var that may be nil"<br><br><br>var a: String! = "this string maybe null but will compile"<br><br><br><br>var text: String? = nil<br>let input = text ?? "default value" 	|
+| Languages 	| Kotlin 	| Swift 	|
+|-	|-	|-	|
+| Declaration 	| var x: String = "not null string variable"<br><br>var y: Int = 3 	| var x: String = "not nil string variable"<br><br>var y: Int = 3 	|
+| nullable / optional <br><br>declaration<br><br><br><br>not null/nil assertion <br>(ignore null/nil check during compile time)<br><br><br>handling nullable/optional values<br>by assigning default values 	| <br><br>var z: String? = "string var that may be null"<br><br><br>var a: String!! = "this string may be null but will compile" <br><br><br><br>var text: String? = null<br>val input = text ?: "default value" 	| <br><br>var z: String? = "string var that may be nil"<br><br><br>var a: String! = "this string may be null but will compile"<br><br><br><br>var text: String? = nil<br>let input = text ?? "default value" 	|
 {:.mytablestyle}
 
 
