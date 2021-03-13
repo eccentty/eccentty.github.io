@@ -314,21 +314,23 @@ footer {
 
 >table {
   border-collapse: collapse;
-  border: 1px solid #000000;
+ 
 }
 
-// content row
->td{
-  border: 1px solid #000000;
-  padding: 15px;
-  text-align: left;
-}
 
 // header row
 >th { 
   border: 1px solid #000000;
   padding: 10px;
   
+}
+
+
+// content row
+>td{
+  border: 1px solid #000000;
+  padding: 15px;
+  text-align: left;
 }
 
 }
