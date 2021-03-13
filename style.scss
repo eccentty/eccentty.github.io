@@ -316,10 +316,18 @@ footer {
   border-collapse: collapse;
 }
 
->td, th {
+// content row
+>td{
   border: 1px solid #000000;
-  padding: 0.5rem;
+  padding: 15px;
   text-align: left;
+}
+
+// header row
+>th { 
+  border: 1px solid #000000;
+  padding: 10px;
+  
 }
 
 }
